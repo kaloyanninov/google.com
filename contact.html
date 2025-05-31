@@ -1,0 +1,48 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакт</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <header class="bg-indigo-600 text-white">
+        <div class="container mx-auto flex items-center justify-between p-4">
+            <a href="index.html" class="flex items-center">
+                <img src="https://images.pexels.com/photos/12784315/pexels-photo-12784315.jpeg?cs=srgb&dl=pexels-steve-12784315.jpg&fm=jpg" alt="Лого" class="h-10 w-10 mr-2">
+                <span class="text-2xl font-bold">ФизикаAI</span>
+            </a>
+            <nav>
+                <a href="index.html" class="px-3 py-2 hover:bg-indigo-700 hover:text-white rounded">Начало</a>
+                <a href="applications.html" class="px-3 py-2 hover:bg-indigo-700 hover:text-white rounded">Приложения</a>
+                <a href="gallery.html" class="px-3 py-2 hover:bg-indigo-700 hover:text-white rounded">Галерия</a>
+                <a href="contact.html" class="px-3 py-2 bg-indigo-700 rounded text-white font-semibold">Контакт</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold text-indigo-800 mb-4">Свържете се с нас</h1>
+        <p class="mb-4">Ако имате въпроси или коментари, моля попълнете формата по-долу или ни пишете на email: <span class="font-semibold">info@fizikaai.bg</span>.</p>
+        <form class="max-w-lg bg-white p-4 shadow-md rounded">
+            <div class="mb-4">
+                <label class="block text-gray-700">Вашето име</label>
+                <input type="text" class="w-full mt-1 p-2 border border-gray-300 rounded" placeholder="Име">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700">Имейл адрес</label>
+                <input type="email" class="w-full mt-1 p-2 border border-gray-300 rounded" placeholder="primer@primer.com">
+            </div>
+            <div class="mb-4">
+                <label class="block text-gray-700">Съобщение</label>
+                <textarea class="w-full mt-1 p-2 border border-gray-300 rounded" rows="5" placeholder="Вашето съобщение"></textarea>
+            </div>
+            <button type="submit" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">Изпрати</button>
+        </form>
+    </main>
+    <footer class="bg-gray-800 text-white text-center p-4">
+        <p>© 2025 ФизикаAI</p>
+    </footer>
+</body>
+</html>

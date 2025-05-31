@@ -1,0 +1,51 @@
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерия</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <header class="bg-indigo-600 text-white">
+        <div class="container mx-auto flex items-center justify-between p-4">
+            <a href="index.html" class="flex items-center">
+                <img src="https://images.pexels.com/photos/12784315/pexels-photo-12784315.jpeg?cs=srgb&dl=pexels-steve-12784315.jpg&fm=jpg" alt="Лого" class="h-10 w-10 mr-2">
+                <span class="text-2xl font-bold">ФизикаAI</span>
+            </a>
+            <nav>
+                <a href="index.html" class="px-3 py-2 hover:bg-indigo-700 hover:text-white rounded">Начало</a>
+                <a href="applications.html" class="px-3 py-2 hover:bg-indigo-700 hover:text-white rounded">Приложения</a>
+                <a href="gallery.html" class="px-3 py-2 bg-indigo-700 rounded text-white font-semibold">Галерия</a>
+                <a href="contact.html" class="px-3 py-2 hover:bg-indigo-700 hover:text-white rounded">Контакт</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold text-indigo-800 mb-4">Галерия</h1>
+        <p class="mb-4">В галерията ще намерите изображения и графики, илюстриращи приложенията на изкуствения интелект във физиката.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div>
+                <img src="https://images.pexels.com/photos/12784315/pexels-photo-12784315.jpeg?cs=srgb&dl=pexels-steve-12784315.jpg&fm=jpg" alt="Модел на атом с орбита" class="w-full h-60 object-cover mb-2 rounded">
+                <p class="text-gray-700 text-sm">3D модел на атом – символ на научната визуализация.</p>
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/669612/pexels-photo-669612.jpeg?cs=srgb&dl=pexels-goumbik-669612.jpg&fm=jpg" alt="Графики и диаграми на хартия" class="w-full h-60 object-cover mb-2 rounded">
+                <p class="text-gray-700 text-sm">Примерни диаграми и графики при анализ на данни.</p>
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?cs=srgb&dl=pexels-goumbik-590022.jpg&fm=jpg" alt="Ръка сочи диаграма" class="w-full h-60 object-cover mb-2 rounded">
+                <p class="text-gray-700 text-sm">Визуализация на резултати от научен анализ.</p>
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/18069816/pexels-photo-18069816.png?cs=srgb&dl=pexels-googledeepmind-18069816.jpg&fm=jpg" alt="Абстрактна схема на изчисления" class="w-full h-60 object-cover mb-2 rounded">
+                <p class="text-gray-700 text-sm">Абстрактна компютърна визуализация на обработка на данни.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-gray-800 text-white text-center p-4">
+        <p>© 2025 ФизикаAI</p>
+    </footer>
+</body>
+</html>
